@@ -39,3 +39,4 @@ function SimpleList({ items }) {
 
 
 export default VariableDisplay;
+export SimpleList;
