@@ -22,6 +22,16 @@ function VariableDisplay() {
             <p>{booVar}</p>
         </div>
     );
+}
+
+function SimpleList({ items }) {
+    return (
+        <ul>
+            {items.map((item, index) => (
+                <li key={index}>{item}</li>
+            ))}
+        </ul>
+    );
 
 }
 
