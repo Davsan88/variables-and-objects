@@ -1,7 +1,8 @@
 import React from 'react';
 
+// This function defines the VariableDisplay component, which renders various types of variables.
 function VariableDisplay() {
-    // Create different type if variables
+     // Declaring different types of variables
     let strVar = 'Hello There';
     let numVar = 9;
     let booVar = true;
