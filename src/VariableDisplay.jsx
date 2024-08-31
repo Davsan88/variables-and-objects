@@ -10,3 +10,7 @@ function VariableDisplay() {
 
 
 }
+
+
+
+export default VariableDisplay;
