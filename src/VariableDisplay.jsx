@@ -33,10 +33,9 @@ function SimpleList({ items }) {
             ))}
         </ul>
     );
-
 }
 
 
 
 export default VariableDisplay;
-export SimpleList;
+export { SimpleList };
