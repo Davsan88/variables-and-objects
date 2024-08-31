@@ -27,6 +27,7 @@ function VariableDisplay() {
     );
 }
 
+// SimpleList component takes an array of items as a prop and renders each item as a list element
 function SimpleList({ items }) {
     return (
         <ul>
@@ -38,6 +39,6 @@ function SimpleList({ items }) {
 }
 
 
-
+// Exporting the VariableDisplay component as the default export and SimpleList as a named export
 export default VariableDisplay;
 export { SimpleList };
