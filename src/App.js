@@ -4,7 +4,7 @@ import VariableDisplay from './VariableDisplay';
 function App() {
   return (
     <div className="App">
-      
+      <VariableDisplay/>
     </div>
   );
 }
