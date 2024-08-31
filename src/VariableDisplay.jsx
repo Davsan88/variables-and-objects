@@ -17,7 +17,8 @@ function VariableDisplay() {
         <div>
             <p>Obiwan most famous quote: {strVar}</p>
             <p>Number of movies: {numVar}</p>
-            <p>Name of the trilogies: {arrVar.join(', ')}</p> {/* Join with space */}
+            <SimpleList items={arrVar} />
+            {/* <p>Name of the trilogies: {arrVar.join(', ')}</p> Join with space */}
             <p>Name: {objVar.name}, Age: {objVar.age}, Role: {objVar.role}</p>
             <p>{booVar}</p>
         </div>
