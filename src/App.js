@@ -1,5 +1,6 @@
 import './App.css';
 import VariableDisplay from './VariableDisplay';
+import { SimpleList } from './VariableDisplay';
 
 function App() {
   return (
