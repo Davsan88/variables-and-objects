@@ -1,7 +1,7 @@
 import React from 'react';
 
-// Create different type if variables
 function VariableDisplay() {
+    // Create different type if variables
     let strVar = 'Hello There';
     let numVar = 9;
     let booVar = true;
