@@ -4,6 +4,7 @@ import VariableDisplay from './VariableDisplay';
 function App() {
   return (
     <div className="App">
+      <h1>Welcome to the Star Wars App</h1>
       <VariableDisplay/>
     </div>
   );
